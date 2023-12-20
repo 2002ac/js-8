@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .body-ic {
+  width: 1100px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+}
+body .body-ic .content {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .body-ic .content .yazi {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+body .body-ic .content .yazi span {
+  font-size: 50px;
+  color: rgb(218, 203, 203);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body .body-ic .content .yazi .emoji {
+  font-size: 40px;
+}
+body .emojiler {
+  width: 900px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+body .emojiler .blok p {
+  font-size: 40px;
+}
+body .emojiler .buttons {
+  margin-top: -30px;
+  width: 250px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=mode.css.map */
